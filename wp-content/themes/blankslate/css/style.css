@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/wp-content/themes/blankslate/fonts/Montserrat-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/wp-content/themes/blankslate/fonts/Montserrat-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/wp-content/themes/blankslate/fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+}
 #branding {
   display: none;
 }
@@ -13,6 +28,14 @@
   position: absolute;
   top: 0px;
   left: 0px;
+}
+
+#menu {
+  font-family: "Montserrat";
+}
+#menu .menu {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .icon img {
@@ -490,7 +513,7 @@
 }
 
 .page-header {
-  background: url("/wp-content/uploads/2019/03/BG_HEADER-1.jpg");
+  background: url("/wp-content/themes/blankslate/images/BG_HEADER-1.jpg");
   background-size: cover;
   background-position: 50% 33%;
   width: 100%;
@@ -805,7 +828,7 @@
 .passion-btn {
   border: none;
   cursor: pointer;
-  padding: 6px 56px 6px 32px;
+  padding: 10px 56px 10px 32px;
   color: white;
   font-weight: 700;
   font-size: 16px;
@@ -1097,6 +1120,10 @@
 
   .could-be-holder {
     flex: 1 1 100%;
+  }
+
+  #menu .menu {
+    flex-direction: column;
   }
 }
 .mt-1 {

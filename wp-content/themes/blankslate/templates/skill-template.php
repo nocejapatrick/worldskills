@@ -7,10 +7,37 @@
             <div class="skill-header-desc"><?php echo get_field('skill_description');?></div>
         </div>
 </div>
- 
-                        <?php while(have_posts()) : the_post(); ?>
-                        <?php the_content();?>
-                        <?php endwhile; ?>
+<div class="p-container">
+    <div class="p-row mt-3">
+      <?php $picture = get_field('skill_picture'); ?>
+       <div class="skill-img-holder"><img src="<?php print_r($picture['sizes']['large']);?>" alt="" class="img-fluid"></div>
+       <div class="could-be-holder">
+          <div class="could-be-desc">
+             <?php echo get_field('could_be_description');?>
+          </div>
+          <ul>
+          <?php $skill_list = explode(',',get_field('skill_list'));
+                  foreach($skill_list as $skill){
+                     echo '<li>'.$skill.'</li>';
+                  }
+          ?>   
+          </ul>
+          <div class="could-be-desc mt-2">
+              Our personality quiz will give you ideas about skills and jobs for you
+          </div>
+          <button class="passion-btn mt-1">Find your passion</button>
+       </div>
+    </div>
+ </div>
+ <div class="skill-intro-holder">
+    <div class="p-container">
+       <div class="skill-intro-title"><?php echo get_field('more_about_skill_title');?></div>
+       <div class="p-row">
+            <div class="skill-intro-desc"><?php echo get_field('more_about_skill_desc'); ?></div>
+            <div class="skill-intro-img"><img src="<?php print_r(get_field('more_about_skill_image')['sizes']['large']);?>" alt="" class="img-fluid"></div>
+       </div>
+   </div>
+ </div>
 <section class="proud-holder">
    <div class="p-container">
       <div class="proud-container">
