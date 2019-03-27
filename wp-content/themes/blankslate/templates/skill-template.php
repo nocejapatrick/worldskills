@@ -43,7 +43,7 @@
       <div class="proud-container">
          <div class="proud-title">Make your country proud</div>
          <div class="proud-desc">Find out how to start competing in a competition.</div>
-         <button class="passion-btn mt-1">Put your skills to the test</button>
+         <button class="passion-btn mt-1" onclick="window.location.href = 'https://worldskills.org/get-involved/how-worldskills-works/'">Put your skills to the test</button>
       </div>
    </div>
 </section>
