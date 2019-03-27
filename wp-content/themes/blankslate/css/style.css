@@ -1125,6 +1125,10 @@
   #menu .menu {
     flex-direction: column;
   }
+
+  #menu .git {
+    color: black;
+  }
 }
 .mt-1 {
   margin-top: 1em;
