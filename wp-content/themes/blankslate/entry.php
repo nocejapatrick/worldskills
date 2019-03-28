@@ -1,6 +1,6 @@
 
 <div class="page-header">
-    <div class="page-header-title">
+    <div class="page-header-title section-title">
         <?php print_r(get_the_category()[0]->cat_name); ?>
     </div>
 </div>
