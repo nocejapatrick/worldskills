@@ -28,7 +28,7 @@ if ( $parent->have_posts() ) : ?>
         
     <div class="skill-card">
             <a href="<?php the_permalink(); ?>">
-                <div class="skill-top" style="background: url('<?php print_r(get_field('skill_picture')['sizes']['medium_large']);?>');">
+                <div class="skill-top" style="background: url('<?php print_r(get_field('thumbnail')['sizes']['medium_large']);?>');">
                     <div class="black-shade"></div>
                     <div class="skill-logo">
                         <img src="/wp-content/themes/blankslate/images/WorldSkills_Philippines_White.png" class="img-fluid" alt="">

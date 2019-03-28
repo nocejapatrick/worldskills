@@ -31,7 +31,12 @@
  </div>
  <div class="skill-intro-holder">
     <div class="p-container">
-       <div class="skill-intro-title"><?php echo get_field('more_about_skill_title');?></div>
+       <div class="p-row align-items-center mb-1">
+          <div class="flag-holder">
+             <img src="/wp-content/themes/blankslate/images/philippines-flag.svg" alt="">
+          </div>
+         <div class="skill-intro-title"><?php echo get_field('more_about_skill_title');?></div>
+       </div>
        <div class="p-row">
             <div class="skill-intro-desc"><?php echo get_field('more_about_skill_desc'); ?></div>
             <div class="skill-intro-img"><img src="<?php print_r(get_field('more_about_skill_image')['sizes']['large']);?>" alt="" class="img-fluid"></div>

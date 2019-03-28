@@ -770,14 +770,18 @@
   text-align: center;
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='144px' height='250px' viewBox='0 0 144 250' version='1.1'><g id='bg_cubes_blue' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'><path d='M74.9846349,210 L146,251.42563 L146,336.741037 L73,294.157704 L0,336.741037 L5.55111512e-17,251.42563 L71.0153651,210 L5.55111512e-17,168.57437 L2.26563926e-18,86.741037 L5.55111512e-17,1.42562967 L72,-40.5743703 L72,-41.741037 L73,-41.1577037 L74,-41.741037 L74,-40.5743703 L146,1.42562967 L146,86.741037 L146,168.57437 L74.9846349,210 Z M73,125.842296 L143.015365,85 L73,44.1577037 L2.98463486,85 L73,125.842296 Z M72,127.57437 L2,86.741037 L2,167.42563 L72,208.258963 L72,127.57437 Z M72,211.741037 L2,252.57437 L2,333.258963 L72,292.42563 L72,211.741037 Z M72,-38.258963 L2,2.57437033 L2,83.258963 L72,42.4256297 L72,-38.258963 Z M144,83.258963 L144,2.57437033 L74,-38.258963 L74,42.4256297 L144,83.258963 Z M144,333.258963 L144,252.57437 L74,211.741037 L74,292.42563 L144,333.258963 Z M144,167.42563 L144,86.741037 L74,127.57437 L74,208.258963 L144,167.42563 Z' id='Combined-Shape' fill='%230093B7' fill-rule='nonzero'></path></g></svg>");
   background-color: #2c247e;
-  padding: 112px 150px 128px 150px;
+  padding: 90px 150px 128px 150px;
   text-align: center;
 }
 
 .skill-header-container {
   font-family: "Montserrat";
   color: white;
-  margin-top: 3rem;
+  padding-top: 7rem;
+  background-image: url("/wp-content/themes/blankslate/images/half-sun.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: 10em;
 }
 .skill-header-container .skill-header-title {
   font-size: 3.76em;
@@ -857,7 +861,6 @@
   font-family: "Montserrat";
   font-size: 1.7em;
   font-weight: bold;
-  margin-bottom: 28px;
 }
 .skill-intro-holder .skill-intro-img {
   flex: 1 1 45%;
@@ -874,13 +877,18 @@
 }
 
 .proud-container {
-  padding: 7rem;
+  padding: 4rem 7rem 7rem 7rem;
   margin: 5rem 0px;
   background-color: #4a0d66;
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="144px" height="250px" viewBox="0 0 144 250" version="1.1"><g id="bg_cubes_blue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M74.9846349,210 L146,251.42563 L146,336.741037 L73,294.157704 L0,336.741037 L5.55111512e-17,251.42563 L71.0153651,210 L5.55111512e-17,168.57437 L2.26563926e-18,86.741037 L5.55111512e-17,1.42562967 L72,-40.5743703 L72,-41.741037 L73,-41.1577037 L74,-41.741037 L74,-40.5743703 L146,1.42562967 L146,86.741037 L146,168.57437 L74.9846349,210 Z M73,125.842296 L143.015365,85 L73,44.1577037 L2.98463486,85 L73,125.842296 Z M72,127.57437 L2,86.741037 L2,167.42563 L72,208.258963 L72,127.57437 Z M72,211.741037 L2,252.57437 L2,333.258963 L72,292.42563 L72,211.741037 Z M72,-38.258963 L2,2.57437033 L2,83.258963 L72,42.4256297 L72,-38.258963 Z M144,83.258963 L144,2.57437033 L74,-38.258963 L74,42.4256297 L144,83.258963 Z M144,333.258963 L144,252.57437 L74,211.741037 L74,292.42563 L144,333.258963 Z M144,167.42563 L144,86.741037 L74,127.57437 L74,208.258963 L144,167.42563 Z" id="Combined-Shape" fill="%23720d66" fill-rule="nonzero"></path></g></svg>');
   text-align: center;
 }
 .proud-container .proud-title {
+  background-image: url("/wp-content/themes/blankslate/images/half-sun.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: 3.5em;
+  padding-top: 5rem;
   font-family: "Montserrat";
   font-size: 2.4em;
   color: white;
@@ -897,6 +905,18 @@
 
 #content {
   overflow: hidden;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flag-holder {
+  width: 40px;
+  margin-right: 12px;
+}
+.flag-holder img {
+  width: 100%;
 }
 
 @media screen and (min-width: 1800px) {
@@ -1116,6 +1136,7 @@
   .proud-container .proud-title {
     font-size: 1.34em;
     line-height: 25px;
+    background-size: 6em;
   }
   .proud-container .proud-desc {
     font-size: 0.9em;
@@ -1269,6 +1290,14 @@
 
   .p-container .article .black-overlay .text-right {
     font-size: 1em;
+  }
+
+  .skill-intro-holder .skill-intro-title {
+    font-size: 1em;
+  }
+
+  .skill-intro-holder .skill-intro-img {
+    margin-top: 20px;
   }
 }
 
