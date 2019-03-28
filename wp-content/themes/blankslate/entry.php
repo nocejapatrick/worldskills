@@ -1,6 +1,6 @@
 
 <div class="page-header">
-    <div class="page-header-title section-title">
+    <div class="page-header-title">
         <?php print_r(get_the_category()[0]->cat_name); ?>
     </div>
 </div>
@@ -37,7 +37,7 @@
             <img src="/wp-content/themes/blankslate/images/sun.svg" alt="">
         </div>
         <div class="hand-holder">
-             <img src="/wp-content/themes/blankslate/images/hand.svg" alt="">
+             <img src="/wp-content/themes/blankslate/images/hand .svg" alt="">
         </div>
     </div>
 </div>

@@ -3,7 +3,7 @@
 
 <?php get_header(); ?>
 <div class="page-header">
-    <div class="page-header-title section-title">
+    <div class="page-header-title section-title" style="margin:0px;">
         SKILLS
     </div>
 </div>
