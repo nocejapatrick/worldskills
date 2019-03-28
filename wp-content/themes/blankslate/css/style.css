@@ -22,12 +22,9 @@
 }
 
 .icon {
-  width: 80px;
-  padding: 12px;
+  width: 101px;
+  padding: 8px;
   background: #1a002a;
-  position: absolute;
-  top: 0px;
-  left: 0px;
 }
 
 #menu {
@@ -138,11 +135,11 @@
   position: relative;
   z-index: 2;
   background: #1a002a;
-  padding: 31px 0px;
 }
 .row #menu {
   flex-grow: 7;
   align-items: center;
+  width: 100%;
 }
 .row .date-today {
   font-family: "Montserrat" !important;
@@ -395,7 +392,7 @@
   padding-top: 34px;
   position: relative;
   overflow: hidden;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 #footer .footer-container {
   width: 80%;
@@ -535,7 +532,7 @@
   margin-right: 50px;
 }
 .main-article .entry-footer {
-  margin-bottom: 15px;
+  margin-bottom: 37px;
 }
 .main-article .entry-footer .cat-links {
   font-family: "Montserrat";
@@ -644,9 +641,6 @@
   display: none;
 }
 
-.footer {
-  margin-top: 10px;
-}
 .footer #nav-below a {
   text-decoration: none;
   font-family: "Montserrat";
@@ -660,6 +654,18 @@
 }
 .footer .nav-previous {
   flex: 1 0 50%;
+}
+
+.sun-holder {
+  position: absolute;
+  bottom: -1004px;
+  right: 668px;
+  width: 0px;
+  z-index: -1;
+}
+
+.position-relative {
+  position: relative;
 }
 
 .justify-between {
@@ -887,6 +893,10 @@
   margin-bottom: 5px;
 }
 
+#content {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1800px) {
   .success {
     height: 100px;
@@ -977,6 +987,7 @@
   #footer .containers:nth-child(2) {
     flex-grow: 1;
     margin-bottom: 30px;
+    width: 100%;
   }
 
   .footer-copyright {
@@ -986,7 +997,8 @@
 
   .row {
     background: #1a002a;
-    height: 68px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   #menu .menu ul {
@@ -996,8 +1008,6 @@
   #menu {
     display: none;
     padding: 0px;
-    position: relative;
-    top: 134px;
   }
 
   #menu .menu li {
@@ -1220,7 +1230,8 @@
   }
 
   #footer .footer-container {
-    width: 92%;
+    width: 89%;
+    flex-direction: column;
   }
 
   .title-and-desc {

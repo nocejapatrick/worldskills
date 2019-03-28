@@ -1,10 +1,11 @@
+
 <div class="page-header">
     <div class="page-header-title section-title">
         <?php print_r(get_the_category()[0]->cat_name); ?>
     </div>
 </div>
 
-<div class="p-container">
+<div class="p-container position-relative">
     <div class="p-row">
         <div class="main-article">
             <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -31,4 +32,8 @@
             </div>
         </div>
     </div>
+    <div class="sun-holder">
+        <img src="/wp-content/themes/blankslate/images/sun.svg" alt="">
+    </div>
 </div>
+

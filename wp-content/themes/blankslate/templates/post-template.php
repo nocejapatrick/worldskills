@@ -28,7 +28,7 @@ if ( $parent->have_posts() ) : ?>
         
     <div class="skill-card">
             <a href="<?php the_permalink(); ?>">
-                <div class="skill-top" style="background: url('<?php print_r(get_field('skill_picture')['sizes']['medium']);?>');">
+                <div class="skill-top" style="background: url('<?php print_r(get_field('skill_picture')['sizes']['medium_large']);?>');">
                     <div class="black-shade"></div>
                     <div class="skill-logo">
                         <img src="/wp-content/themes/blankslate/images/WorldSkills_Philippines_White.png" class="img-fluid" alt="">
@@ -36,12 +36,11 @@ if ( $parent->have_posts() ) : ?>
                 </div>
             <div class="skill-body">
                 <div class="skill-title"><?php the_title(); ?></div>
+                
                 <div class="skill-desc"><?php echo get_field('skill_factor'); ?></div>
             </div>
             </a>
         </div>
-
-      
     <?php endwhile; ?>
 
 <?php endif; wp_reset_postdata(); ?>

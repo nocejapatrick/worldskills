@@ -24,12 +24,9 @@
 }
 
 .icon{
-    width: 80px;
-    padding: 12px;
+    width: 101px;
+    padding: 8px;
     background: #1a002a;
-    position: absolute;
-    top:0px;
-    left:0px;
 }
 
 #menu{
@@ -143,12 +140,10 @@
     position: relative;
     z-index: 2;
     background: #1a002a;
-    padding:31px 0px;
-    
     & #menu{
         flex-grow: 7;
         align-items: center;
-      
+        width: 100%;
     }
     & .date-today{
         font-family: 'Montserrat' !important;
@@ -426,7 +421,7 @@
     padding-top: 34px;
     position: relative;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 0px;
     & .footer-container{
         width: 80%;
         max-width: 1065px;
@@ -582,7 +577,7 @@
     & .entry-footer{
 
 
-        margin-bottom: 15px;
+        margin-bottom: 37px;
 
         & .cat-links{
             font-family: $fontFamily;
@@ -708,7 +703,6 @@
 }
 
 .footer{
-    margin-top:10px;
     & #nav-below a{
         text-decoration: none;
         font-family: $fontFamily;
@@ -723,6 +717,17 @@
     & .nav-previous{
         flex: 1 0 50%;
     }
+}
+.sun-holder{
+    position: absolute;
+    bottom: -1004px;
+    right: 668px;
+    width: 0px;
+    z-index: -1;
+}
+
+.position-relative{
+    position: relative;
 }
 
 .justify-between{
@@ -978,6 +983,13 @@
     }
 }
 
+#content{
+    overflow: hidden;
+}
+
+
+
+
 @media screen and (min-width:1800px){
     .success{
         height:100px;
@@ -1060,6 +1072,7 @@
     #footer .containers:nth-child(2){
         flex-grow: 1;
         margin-bottom: 30px;
+        width: 100%;
     }
     .footer-copyright{
         // text-align: left;
@@ -1069,7 +1082,8 @@
     }
     .row{
         background: #1a002a;
-        height: 68px;
+        flex-direction: column;
+        align-items: flex-start;
     }
     #menu .menu ul{
         flex-direction: column;
@@ -1077,8 +1091,6 @@
     #menu{
         display: none;
         padding:0px;
-        position: relative;
-        top:134px;
     }
     #menu .menu li{
         background: #1a002a;
@@ -1305,7 +1317,8 @@
         top:271px;
     }
     #footer .footer-container{
-        width:92%;
+        width:89%;
+        flex-direction: column;
     }
     .title-and-desc{
         top: 350px;
@@ -1339,4 +1352,5 @@
     .p-container .article .black-overlay .text-right{
         font-size: 1em;
     }
+    
 }
