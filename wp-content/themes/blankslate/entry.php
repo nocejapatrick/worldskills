@@ -37,7 +37,7 @@
             <img src="/wp-content/themes/blankslate/images/sun.svg" alt="">
         </div>
         <div class="hand-holder">
-             <img src="/wp-content/themes/blankslate/images/hand .svg" alt="">
+             <img src="/wp-content/themes/blankslate/images/hand.svg" alt="">
         </div>
     </div>
 </div>
