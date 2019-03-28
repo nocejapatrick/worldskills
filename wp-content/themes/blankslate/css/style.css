@@ -48,7 +48,7 @@
 .parent-header #header {
   position: relative;
   left: -30px;
-  background: url("/wp-content/themes/blankslate/images/BG_HEADER-1.jpg");
+  background: url("/wp-content/themes/blankslate/images/BG_HEADER-1_2.jpg");
   background-size: cover;
   background-position: 70% 0%;
   transition: 0.2s all linear;
@@ -510,7 +510,7 @@
 }
 
 .page-header {
-  background: url("/wp-content/themes/blankslate/images/BG_HEADER-1.jpg");
+  background: url("/wp-content/themes/blankslate/images/BG_HEADER-1_2.jpg");
   background-size: cover;
   background-position: 50% 33%;
   width: 100%;
@@ -661,6 +661,14 @@
   bottom: -1004px;
   right: 668px;
   width: 0px;
+  z-index: -1;
+}
+
+.hand-holder {
+  position: absolute;
+  width: 419px;
+  bottom: -65px;
+  right: -353px;
   z-index: -1;
 }
 

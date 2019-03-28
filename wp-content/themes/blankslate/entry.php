@@ -32,8 +32,13 @@
             </div>
         </div>
     </div>
-    <div class="sun-holder">
-        <img src="/wp-content/themes/blankslate/images/sun.svg" alt="">
+    <div class="sun-and-hand-holder">
+        <div class="sun-holder">
+            <img src="/wp-content/themes/blankslate/images/sun.svg" alt="">
+        </div>
+        <div class="hand-holder">
+             <img src="/wp-content/themes/blankslate/images/hand.svg" alt="">
+        </div>
     </div>
 </div>
 
