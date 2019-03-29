@@ -744,7 +744,7 @@
   box-sizing: border-box;
   background: #efefef;
   padding: 20px;
-  height: 111px;
+  height: 100%;
   border-bottom-right-radius: 10px;
 }
 .skill-card .skill-body .skill-title {

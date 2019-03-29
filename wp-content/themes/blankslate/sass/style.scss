@@ -15,6 +15,7 @@
     src:url('/wp-content/themes/blankslate/fonts/Montserrat-Regular.ttf');
     font-weight: normal;
 }
+
 #branding{
     display: none;
 }
@@ -827,7 +828,7 @@
         box-sizing: border-box;
         background:#efefef; 
         padding:20px;
-        height:111px;
+        height: 100%;
         border-bottom-right-radius: 10px;
         & .skill-title{
             font-weight: bold;
