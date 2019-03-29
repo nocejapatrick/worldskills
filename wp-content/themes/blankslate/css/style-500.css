@@ -103,9 +103,6 @@
   .skill-card {
     flex: 1 1 100%;
     margin: 10px 0px;
-  }
-  .skill-card .skill-body {
-    height: 88px;
     background: #2c3768;
   }
   .skill-card .skill-body * {
