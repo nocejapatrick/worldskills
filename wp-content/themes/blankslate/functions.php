@@ -66,3 +66,9 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
+function mytheme_enqueue_style() {
+    wp_enqueue_style( 'style-css', get_template_directory_uri().'/css/style.css',[],'','all'); 
+    wp_enqueue_style( 'style-css-500', get_template_directory_uri().'/css/style-500.css',[],'','screen and (max-width:500px)'); 
+}
+add_action( 'wp_enqueue_scripts', 'mytheme_enqueue_style' );
