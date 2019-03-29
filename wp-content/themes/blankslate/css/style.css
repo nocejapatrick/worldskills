@@ -691,7 +691,7 @@
 }
 
 .skill-card {
-  flex: 1 1 23%;
+  flex: 1;
   margin: 20px 7px;
   cursor: pointer;
 }
@@ -744,7 +744,7 @@
   box-sizing: border-box;
   background: #efefef;
   padding: 20px;
-  height: 100%;
+  min-height: 111px;
   border-bottom-right-radius: 10px;
 }
 .skill-card .skill-body .skill-title {
@@ -917,6 +917,10 @@
 }
 .flag-holder img {
   width: 100%;
+}
+
+.align-items-stretch {
+  align-items: stretch;
 }
 
 @media screen and (min-width: 1800px) {
